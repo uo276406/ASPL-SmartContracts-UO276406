@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "./IAuction.sol";
 
 
-contract Auction is ERC721, ERC721Burnable, Ownable, IAuction {
+contract AuctionContract is ERC721, ERC721Burnable, Ownable, IAuction {
     uint private auctionCounter;
     mapping(uint => Auction) private auctions;
     uint[] private activeAuctions;
