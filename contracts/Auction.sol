@@ -16,7 +16,7 @@ contract AuctionContract is ERC721, ERC721Burnable, Ownable, IAuction {
         ERC721("AuctionSystem", "AS")
         Ownable(initialOwner)
     {
-        // Se crean por defecto inicialmente
+        // Se crean por defecto inicialmente algunas subastas
         auctions[0] = Auction({
             seller: msg.sender,
             itemName: "Vintage Car",
@@ -41,6 +41,7 @@ contract AuctionContract is ERC721, ERC721Burnable, Ownable, IAuction {
             highestBidder: address(0),
             active: false
         });
+        activeAuctions = [0,1];
     }
 
     function safeMint(address to, uint256 tokenId) public onlyOwner {
