@@ -116,7 +116,6 @@ contract AuctionContract is ERC721, ERC721Burnable, Ownable, IAuction {
         require(msg.value > auction.highestBid && msg.value >= auction.startingBid, "Bid is too low");
 
         if (auction.highestBid > 0) {
-            // Reembolsar al postor anterior
             payable(auction.highestBidder).transfer(auction.highestBid);
         }
 
