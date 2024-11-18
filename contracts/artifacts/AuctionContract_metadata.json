@@ -1041,11 +1041,11 @@
 			]
 		},
 		"contracts/Auction.sol": {
-			"keccak256": "0xb57438db10bb73b7ec3237083ee983fafa83b06880563d72106a3d0a8130070c",
+			"keccak256": "0x61806b31802626a81aa4a4e2f61fb163bb35445e3072e221cc5a7d085c26d2f8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://37414a556288334f60acc2757327c872bbf38b687db81eb16136c769a382a7d0",
-				"dweb:/ipfs/QmXjEgrvjN6DXNzG8ofBorT6DKu7CGLeZzSoVvQazeHzCh"
+				"bzz-raw://ae153a26c4f296c1b1ccb47d837f001731592813b2e2614e2a2f712dbd75d0cd",
+				"dweb:/ipfs/QmPm2r4bJDtx48nHrdzsZ8h7iyRiVjD9iPHoVqQKG7719o"
 			]
 		},
 		"contracts/IAuction.sol": {

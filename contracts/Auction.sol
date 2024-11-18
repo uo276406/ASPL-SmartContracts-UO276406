@@ -42,6 +42,7 @@ contract AuctionContract is ERC721, ERC721Burnable, Ownable, IAuction {
             active: false
         });
         activeAuctions = [0,1];
+        auctionCounter = 3;
     }
 
     function safeMint(address to, uint256 tokenId) public onlyOwner {
